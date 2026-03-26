@@ -66,7 +66,7 @@ jobs:
           cache: 'pnpm'
       - run: pnpm install --frozen-lockfile
       - run: pnpm --filter @starter/api db:generate
-      - run: pnpm --filter @starter/api db:deploy
+      - run: pnpm --filter @starter/api db:push
       - run: pnpm test
 
   build:
