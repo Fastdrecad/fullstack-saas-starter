@@ -1,0 +1,50 @@
+{
+  "app.name": "SaaS Starter",
+
+  "auth.login": "Log in",
+  "auth.register": "Create account",
+  "auth.email": "Email",
+  "auth.password": "Password",
+  "auth.newPassword": "New password",
+  "auth.displayName": "Display name",
+  "auth.displayNamePlaceholder": "Your name",
+  "auth.submit": "Continue",
+  "auth.loginWith": "Or continue with",
+  "auth.github": "GitHub",
+  "auth.google": "Google",
+  "auth.noAccount": "Don't have an account?",
+  "auth.hasAccount": "Already have an account?",
+  "auth.backToLogin": "Back to login",
+
+  "auth.forgotPassword": "Forgot password?",
+  "auth.forgotPasswordDescription": "Enter your email and we'll send you a reset link.",
+  "auth.sendResetLink": "Send reset link",
+  "auth.forgotPasswordSuccess": "If the email exists, a reset link has been sent.",
+  "auth.forgotPasswordFailed": "Failed to send reset link.",
+
+  "auth.resetPassword": "Reset password",
+  "auth.resetPasswordSuccess": "Password has been reset successfully.",
+  "auth.resetPasswordFailed": "Failed to reset password.",
+  "auth.invalidResetToken": "Invalid or missing reset token.",
+  "auth.requestNewResetLink": "Request a new reset link",
+
+  "auth.oauthProcessing": "Signing you in...",
+  "auth.oauthFailed": "OAuth sign-in failed.",
+  "auth.oauthTokenMissing": "No authentication token found.",
+
+  "auth.loginFailed": "Login failed.",
+  "auth.registerFailed": "Registration failed.",
+  "auth.loading": "Loading...",
+
+  "settings.title": "Settings",
+  "settings.profile": "Profile",
+  "settings.linkedAccounts": "Linked accounts",
+  "settings.notLinked": "Not linked",
+  "settings.link": "Link",
+  "settings.unlink": "Unlink",
+  "settings.loadError": "Failed to load linked accounts.",
+
+  "error.required": "This field is required",
+  "error.invalidEmail": "Invalid email address",
+  "error.weakPassword": "Password must be at least 8 characters with uppercase, lowercase, and a number"
+}
