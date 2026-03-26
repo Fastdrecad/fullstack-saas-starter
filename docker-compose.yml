@@ -3,7 +3,7 @@ services:
     image: postgres:16-alpine
     container_name: starter-db
     ports:
-      - '5433:5432'
+      - '5434:5432'
     environment:
       POSTGRES_USER: starter
       POSTGRES_PASSWORD: starter_dev
@@ -20,7 +20,7 @@ services:
     image: redis:7-alpine
     container_name: starter-redis
     ports:
-      - '6379:6379'
+      - '6380:6379'
     healthcheck:
       test: ['CMD', 'redis-cli', 'ping']
       interval: 10s
